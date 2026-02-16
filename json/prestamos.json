@@ -1,0 +1,38 @@
+{
+    "P200": {
+        "id_prestamo": "P200",
+        "solicitante": "Juan Quintanilla",
+        "tipo_usuario": "Administrador",
+        "id_herramienta": "mart002",
+        "herramienta": "Martillo",
+        "cantidad": 1,
+        "fecha_inicio": "13/02/2026",
+        "fecha_entrega": "17/02/2026",
+        "estado": "Finalizado",
+        "observaciones": "Ninguna | Devuelto el: 13/02/2026"
+    },
+    "P300": {
+        "id_prestamo": "P300",
+        "solicitante": "Miguel Acevedo",
+        "tipo_usuario": "Residente",
+        "id_herramienta": "tij003",
+        "herramienta": "Tijeras",
+        "cantidad": 1,
+        "fecha_inicio": "13/02/2026",
+        "fecha_entrega": "20/02/2006",
+        "estado": "Finalizado",
+        "observaciones": "Ninguna | Devuelto el: 13/02/2026"
+    },
+    "P050": {
+        "id_prestamo": "P050",
+        "solicitante": "Alex Quintanilla",
+        "tipo_usuario": "Residente",
+        "id_herramienta": "mart002",
+        "herramienta": "Martillo",
+        "cantidad": 1,
+        "fecha_inicio": "17/06/2026",
+        "fecha_entrega": "13/07/2026",
+        "estado": "Finalizado",
+        "observaciones": "Ninguna | Devuelto el: 13/07/2026"
+    }
+}

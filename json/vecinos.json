@@ -1,0 +1,30 @@
+{
+    "001": {
+        "nombre": "Juan",
+        "apellidos": "Quintanilla",
+        "telefono": "3216871995",
+        "direccion": "Cra32",
+        "tipo_de_usuario": "Administrador"
+    },
+    "002": {
+        "nombre": "Miguel",
+        "apellidos": "Acevedo",
+        "telefono": "3227691665",
+        "direccion": "Cra44",
+        "tipo_de_usuario": "Residente"
+    },
+    "003": {
+        "nombre": "Alex",
+        "apellidos": "Quintanilla",
+        "telefono": "1234567890",
+        "direccion": "Cra55",
+        "tipo_de_usuario": "Residente"
+    },
+    "004": {
+        "nombre": "Lucia",
+        "apellidos": "Calderon",
+        "telefono": "5647382910",
+        "direccion": "Cra78",
+        "tipo_de_usuario": "Administrador"
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "mart002": {
+        "nombre": "Martillo",
+        "precio": 20000,
+        "stock": 5,
+        "categoria": "Construccion",
+        "estado": "Activa"
+    },
+    "dest001": {
+        "nombre": "Destornillador",
+        "precio": 12000,
+        "stock": 0,
+        "categoria": "Construccion",
+        "estado": "Fds"
+    },
+    "tij003": {
+        "nombre": "Tijeras",
+        "precio": 6000,
+        "stock": 4,
+        "categoria": "Jardineria",
+        "estado": "Activa"
+    }
+}

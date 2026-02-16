@@ -1,0 +1,46 @@
+======================================================================
+         REPORTE DE PRUEBAS - SISTEMA DE GESTIÓN COMUNITARIA
+======================================================================
+
+CASO DE PRUEBA 01: AUTENTICACIÓN POR ID
+----------------------------------------------------------------------
+- Objetivo: Validar el ingreso según la base de datos JSON.
+- Entrada: 
+    1. ID: "001" -> Resultado: Entra como Administrador (Admin).
+    2. ID: "002" -> Resultado: Entra como Miguel Acevedo (Residente).
+- Resultado Esperado: El sistema reconoce el rango y muestra el menú correspondiente.
+
+CASO DE PRUEBA 02: REGISTRO Y PERSISTENCIA DE VECINOS
+----------------------------------------------------------------------
+- Objetivo: Verificar que los nuevos vecinos se guardan en json/vecinos.json.
+- Entrada (Admin): 
+    - Registrar ID: "006", Nombre: "Lucia", Apellido: "Calderon".
+- Acción: Seleccionar opción "Volver" en el menú para activar guardar_datos().
+- Resultado Esperado: El archivo vecinos.json se actualiza con los datos de Lucia.
+
+CASO DE PRUEBA 03: GESTIÓN DE INVENTARIO (STOCK BAJO)
+----------------------------------------------------------------------
+- Objetivo: Probar la alerta visual de herramientas con pocas unidades.
+- Entrada (Admin): 
+    - Registrar herramienta: ID "tij003", Nombre "Tijeras", Stock "2".
+- Acción: Ir a Consultas y Reportes -> Herramientas con stock bajo.
+- Resultado Esperado: Las "Tijeras" aparecen en la lista resaltadas en ROJO.
+
+CASO DE PRUEBA 04: FLUJO COMPLETO DE PRÉSTAMO
+----------------------------------------------------------------------
+- Objetivo: Validar solicitud, autorización y afectación de stock.
+- Pasos:
+    1. (Residente 002): Solicita "Taladro" (ID: tal003).
+    2. (Admin): Va a Gestión de Préstamos -> Autorizar.
+- Resultado Esperado: 
+    - El stock del Taladro baja de 7 a 6 en herramientas.json.
+    - El préstamo cambia de estado "En trámite" a "Activo".
+
+CASO DE PRUEBA 05: AUDITORÍA DE ACCIONES (LOGS)
+----------------------------------------------------------------------
+- Objetivo: Confirmar que el archivo logs.txt captura los eventos.
+- Acción: Eliminar una herramienta o registrar una devolución.
+- Resultado Esperado: Se genera una línea automática en logs.txt:
+  Ejemplo: "[EVENTO]: PRESTAMO AUTORIZADO: Solicitud P300 activa..."
+
+======================================================================

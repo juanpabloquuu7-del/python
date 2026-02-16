@@ -1,0 +1,19 @@
+[EVENTO]: HERRAMIENTA NUEVA: Taladro (ID: tal003) - Stock: 7, Cat: Construccion
+[EVENTO]: NUEVO VECINO: Miguel Acevedo (ID: 002) como Residente
+[EVENTO]: NUEVO VECINO: Alex Quintanilla (ID: 003) como Residente
+[EVENTO]: NUEVO VECINO: Alex Quintanilla (ID: 003) como Residente
+[EVENTO]: NUEVO VECINO: Alberth Leal (ID: 004) como Residente
+[EVENTO]: NUEVO VECINO: Luia Santa (ID: 005) como Residente
+[EVENTO]: HERRAMIENTA NUEVA: Tijeras (ID: tij003) - Stock: 4, Cat: Jardineria
+[EVENTO]: SOLICITUD CREADA: P300 - Tijeras solicitada por Miguel Acevedo
+[EVENTO]: PRESTAMO AUTORIZADO: Solicitud P300 activa. Herramienta Tijeras (ID: tij003) salió de inventario.
+[EVENTO]: DEVOLUCIÓN PROCESADA: Préstamo P300 finalizado. Herramienta Tijeras (ID: tij003) regresó a bodega. Nuevo stock: 4
+[EVENTO]: SOLICITUD CREADA: P400 - Destornillador solicitada por Miguel Acevedo
+[ERROR]: FALLO DEVOLUCIÓN: El préstamo ID  no existe.
+[EVENTO]: NUEVO VECINO: Lucia Calderon (ID: 004)
+[EVENTO]: VECINO ELIMINADO: ID 005
+[ERROR]: FALLO ACTUALIZACIÓN: ID '' no existe.
+[ERROR]: FDS: Destornillador (ID: dest001). Stock 4 -> 0
+[EVENTO]: SOLICITUD CREADA: P050 por Alex Quintanilla
+[EVENTO]: AUTORIZADO: P050. Herramienta mart002
+[EVENTO]: DEVOLUCIÓN: P050. Herramienta mart002 regresó.
