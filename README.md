@@ -1,5 +1,5 @@
 🛠️ SISTEMA DE GESTIÓN COMUNITARIA
-¡Qué onda! Este es el proyecto para manejar todo el tema de los vecinos, las herramientas y los préstamos del barrio. El programa está dividido para que no se mezcle lo que hace el Admin con lo que hace el Residente.
+Buenas tardes Este es el proyecto para manejar todo el tema de los vecinos, las herramientas y los préstamos del barrio. El programa está dividido para que no se mezcle lo que hace el Admin con lo que hace el Residente.
 
 📂 ¿Qué hay en las carpetas?
 proyecto.py: Es el archivo principal. Este es el que tienes que abrir para que arranque todo el sistema.
@@ -32,3 +32,6 @@ Si eres Residente: Puedes checar qué herramientas hay libres, pedir una prestad
 Presiona Enter: No te aceleres. Después de que el programa te muestre una lista o un mensaje, siempre te va a pedir que des Enter para continuar. Si no le das, no sigue.
 
 Los Logs: Si algo falla o alguien hace un movimiento, el programa lo anota solito en el archivo logs.txt. Es como nuestra bitácora para saber qué pasó.
+
+Link del video
+https://drive.google.com/file/d/1QZUXrLG-boBbW0eDdzHzgZB-mrkMgakH/view?usp=sharing
