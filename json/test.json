@@ -1,0 +1,9 @@
+{
+    "mart002": {
+        "id_baja": "mart002",
+        "nombre": "martillo",
+        "estado": "dada de baja",
+        "fecha_baja": "22/02/2026",
+        "motivo": "dañado"
+    }
+}
